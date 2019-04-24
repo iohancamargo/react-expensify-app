@@ -5,8 +5,8 @@
 const filtersReducerDefaultState = {
     text: '',
     sortBy: 'date',
+    endDate: undefined,
     startDate: undefined,
-    endDate: undefined
 };
 
 export default (state = filtersReducerDefaultState, action) => {
